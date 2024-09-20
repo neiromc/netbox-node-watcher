@@ -14,8 +14,8 @@ import (
 )
 
 const (
-	StatusNetBoxActive      NetboxStatus = "Active"
-	StatusNetBoxMaintenance NetboxStatus = "Maintenance"
+	StatusNetBoxActive      NetboxStatus = "Online"
+	StatusNetBoxMaintenance NetboxStatus = "Maintenance mode"
 )
 
 type NetboxStatus string
